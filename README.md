@@ -19,3 +19,27 @@ Begin by navigating to the Azure portal (https://portal.azure.com) and logging i
 
 In the Azure portal, search for "OpenAI" in the service catalog to explore available OpenAI resources. You'll find services such as the OpenAI API, which provides access to AI models like GPT-3 and CLIP, as well as other related services.
 
+#### 2.1 Create OpenAI resource 
+In your resource group, click Create: <img src="./Images/CreateAPI_1.png" style="height: 90%; width: 90%;"/>
+
+Next in the market place, search for OpenAI and select Azure OpenAI 
+<img src="./Images/CreateAPI_2.png" style="height: 90%; width: 90%;"/>
+
+
+<img src="./Images/CreateAPI_3.png" style="height: 90%; width: 90%;"/>
+
+
+<img src="./Images/CreateAPI_4.png" style="height: 90%; width: 90%;"/>
+Here, if you haven't already had access to Azure OpenAI, you will have this error message, which you should click the link to fill out a request access form. 
+
+<img src="./Images/RequestForm_1.png" style="height: 90%; width: 90%;"/>
+In the form, you will need to fill out your subscription ID, to prove you have enough credits to access this service, 
+
+<img src="./Images/RequestForm_2.png" style="height: 90%; width: 90%;"/>
+
+you will also be asked to fill out what kind of services you will do with OpenAI, ChatGPT4.0, TurboGPT. Dall.E, or others. Some of these questions are very specific, 
+<img src="./Images/RequestForm_3.png" style="height: 90%; width: 90%;"/>
+
+
+
+
