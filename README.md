@@ -1,4 +1,10 @@
-# OpenAI
+# Using Document Intelligence and OpenAI to acquire information from a pdf file. 
+In this Tutorial, we will demonstrate how Azure cognitive service Document Intelligence and OpenAI can be used to extract information from a phd file, such as a scientific publication. 
+
+## Document Intelligence 
+Azure AI Document Intelligence, formerly known as Form Recognizer, is a cloud-based service offered by Microsoft Azure. It leverages advanced machine learning technologies to automatically extract text, key-value pairs, tables, and structures from various documents. This service simplifies the process of converting unstructured documents into usable data, enabling businesses to focus more on utilizing information rather than compiling it. Document Intelligence supports both pre-built models for common document types and custom models that can be tailored to unique document structures. This service can be applied in numerous scenarios including cloud-based or edge deployments, making it versatile for different IT architectures and business needs​ (Microsoft Azure)​​ (MS Learn)​.
+
+
 ## OpenAI API introduction
 The OpenAI API is a powerful tool that provides access to state-of-the-art artificial intelligence models developed by OpenAI. It allows developers to integrate cutting-edge AI capabilities into their applications with ease. Some key capabilities of the OpenAI API include:
 
@@ -53,6 +59,13 @@ if your resource is created successfully, you will see this page:
 
 ### Step 3: Create Azure OpenAI Deployment 
 
-Azure OpenAI Deployment is a service offered by Microsoft Azure that facilitates the integration and deployment of OpenAI models within Azure's cloud infrastructure. This service enables developers to easily deploy, scale, and manage OpenAI models for various applications such as natural language processing, image recognition, and more. With Azure OpenAI Deployment, users can leverage the power of OpenAI while benefiting from Azure's robust platform for seamless integration, scalability, and reliability. It simplifies the process of deploying AI models, allowing developers to focus on building innovative solutions without worrying about infrastructure management.
+To use OpenAI, you also need to prompt the model you created through Azure OpenAI Deployment. Azure OpenAI Deployment is a service offered by Microsoft Azure that facilitates the integration and deployment of OpenAI models within Azure's cloud infrastructure. This service enables developers to easily deploy, scale, and manage OpenAI models for various applications such as natural language processing, image recognition, and more. With Azure OpenAI Deployment, users can leverage the power of OpenAI while benefiting from Azure's robust platform for seamless integration, scalability, and reliability. It simplifies the process of deploying AI models, allowing developers to focus on building innovative solutions without worrying about infrastructure management.
 
 Go to Azure OpenAI Studio [https://oai.azure.come/portal] and click ```Create new deployment```
+
+
+ <img src="./images/CreateDepolyment_1.png" style="height: 90%; width: 90%;"/>
+
+Remember the name of the Azure OpenAI deployment. 
+
+
