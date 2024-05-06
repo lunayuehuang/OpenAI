@@ -20,36 +20,36 @@ Begin by navigating to the Azure portal (https://portal.azure.com) and logging i
 In the Azure portal, search for "OpenAI" in the service catalog to explore available OpenAI resources. You'll find services such as the OpenAI API, which provides access to AI models like GPT-3 and CLIP, as well as other related services.
 
  
-In your resource group, click Create: <img src="./Images/CreateAPI_1.png" style="height: 90%; width: 90%;"/>
+In your resource group, click Create: <img src="./images/CreateAPI_1.png" style="height: 90%; width: 90%;"/>
 
 Next in the market place, search for OpenAI and select Azure OpenAI 
-<img src="./Images/CreateAPI_2.png" style="height: 90%; width: 90%;"/>
+<img src="./images/CreateAPI_2.png" style="height: 90%; width: 90%;"/>
 
 
-<img src="./Images/CreateAPI_3.png" style="height: 90%; width: 90%;"/>
+<img src="./images/CreateAPI_3.png" style="height: 90%; width: 90%;"/>
 
 
-<img src="./Images/CreateAPI_4.png" style="height: 90%; width: 90%;"/>
+<img src="./images/CreateAPI_4.png" style="height: 90%; width: 90%;"/>
 Here, if you haven't already had access to Azure OpenAI, you will have this error message, which you should click the link to fill out a request access form. 
 
-<img src="./Images/RequestForm_1.png" style="height: 90%; width: 90%;"/>
+<img src="./images/RequestForm_1.png" style="height: 90%; width: 90%;"/>
 In the form, you will need to fill out your subscription ID, to prove you have enough credits to access this service, 
 
-<img src="./Images/RequestForm_2.png" style="height: 90%; width: 90%;"/>
+<img src="./images/RequestForm_2.png" style="height: 90%; width: 90%;"/>
 
 you will also be asked to fill out what kind of services you will do with OpenAI, ChatGPT4.0, TurboGPT. Dall.E, or others. Some of these questions are very specific, 
-<img src="./Images/RequestForm_3.png" style="height: 90%; width: 90%;"/>
+<img src="./images/RequestForm_3.png" style="height: 90%; width: 90%;"/>
 
 If your request is approved, you will get an email from Cognitive Service of Azure to welcome you to the Azure OpenAI service. Now, you are ready to create the OpenAI resources, 
 
 When your subscription has Azure OpenAI access, use when you click create Azure OpenAI in the marketplace, you will see 
-<img src="./Images/CreateAPI_5.png" style="height: 90%; width: 90%;"/>
+<img src="./images/CreateAPI_5.png" style="height: 90%; width: 90%;"/>
 
 Use your own UW NetID to name your Azure OpenAI resource, and choose the standard price tier, and keep all the other options in the Network, Tags as default option, and click create in the ```Review+Submit```
 
 
 if your resource is created successfully, you will see this page:
- <img src="./Images/CreateAPI_6.png" style="height: 90%; width: 90%;"/>
+ <img src="./images/CreateAPI_6.png" style="height: 90%; width: 90%;"/>
 
 ### Step 3: Create Azure OpenAI Deployment 
 
