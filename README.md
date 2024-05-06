@@ -32,13 +32,13 @@ Next in the market place, search for OpenAI and select Azure OpenAI
 <img src="./images/CreateAPI_4.png" style="height: 90%; width: 90%;"/>
 Here, if you haven't already had access to Azure OpenAI, you will have this error message, which you should click the link to fill out a request access form. 
 
-<img src="./images/RequestForm_1.png" style="height: 90%; width: 90%;"/>
+<img src="./images/ReqestForm_1.png" style="height: 90%; width: 90%;"/>
 In the form, you will need to fill out your subscription ID, to prove you have enough credits to access this service, 
 
-<img src="./images/RequestForm_2.png" style="height: 90%; width: 90%;"/>
+<img src="./images/ReqestForm_2.png" style="height: 90%; width: 90%;"/>
 
 you will also be asked to fill out what kind of services you will do with OpenAI, ChatGPT4.0, TurboGPT. Dall.E, or others. Some of these questions are very specific, 
-<img src="./images/RequestForm_3.png" style="height: 90%; width: 90%;"/>
+<img src="./images/ReqestForm_3.png" style="height: 90%; width: 90%;"/>
 
 If your request is approved, you will get an email from Cognitive Service of Azure to welcome you to the Azure OpenAI service. Now, you are ready to create the OpenAI resources, 
 
