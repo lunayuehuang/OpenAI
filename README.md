@@ -13,7 +13,7 @@ OpenAI's powerful artificial intelligence capabilities are now available through
 
 ### Step 1: Accessing OpenAI Resources on Azure
 
-Begin by navigating to the Azure portal (https://portal.azure.com) and logging in with your Azure account credentials. Once logged in, you can access various Azure services, including OpenAI resources.
+Begin by navigating to the Azure portal ([https://portal.azure.com]) and logging in with your Azure account credentials. Once logged in, you can access various Azure services, including OpenAI resources.
 
 ### Step 2:Create OpenAI Resource 
 
@@ -22,7 +22,7 @@ In the Azure portal, search for "OpenAI" in the service catalog to explore avail
  
 In your resource group, click Create: <img src="./images/CreateAPI_1.png" style="height: 90%; width: 90%;"/>
 
-Next in the market place, search for OpenAI and select Azure OpenAI 
+Next in the marketplace, search for OpenAI and select Azure OpenAI 
 <img src="./images/CreateAPI_2.png" style="height: 90%; width: 90%;"/>
 
 
@@ -37,7 +37,7 @@ In the form, you will need to fill out your subscription ID, to prove you have e
 
 <img src="./images/ReqestForm_2.png" style="height: 90%; width: 90%;"/>
 
-you will also be asked to fill out what kind of services you will do with OpenAI, ChatGPT4.0, TurboGPT. Dall.E, or others. Some of these questions are very specific, 
+you will also be asked to fill out what kind of services you will do with OpenAI, ChatGPT4.0, GPT Turbo. Dall-E, or others. Some of these questions are very specific, 
 <img src="./images/ReqestForm_3.png" style="height: 90%; width: 90%;"/>
 
 If your request is approved, you will get an email from Cognitive Service of Azure to welcome you to the Azure OpenAI service. Now, you are ready to create the OpenAI resources, 
@@ -55,4 +55,4 @@ if your resource is created successfully, you will see this page:
 
 Azure OpenAI Deployment is a service offered by Microsoft Azure that facilitates the integration and deployment of OpenAI models within Azure's cloud infrastructure. This service enables developers to easily deploy, scale, and manage OpenAI models for various applications such as natural language processing, image recognition, and more. With Azure OpenAI Deployment, users can leverage the power of OpenAI while benefiting from Azure's robust platform for seamless integration, scalability, and reliability. It simplifies the process of deploying AI models, allowing developers to focus on building innovative solutions without worrying about infrastructure management.
 
-Go to Azure OpenAI Studio ```oai.azure.come/portal``` and click ```Create new depolyment```
+Go to Azure OpenAI Studio [https://oai.azure.come/portal] and click ```Create new deployment```
