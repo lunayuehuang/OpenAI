@@ -1,5 +1,5 @@
 # Using Document Intelligence and OpenAI to acquire information from a pdf file. 
-In this Tutorial, we will demonstrate how Azure cognitive service Document Intelligence and OpenAI can be used to extract information from a phd file, such as a scientific publication. 
+In this Tutorial, we will demonstrate how Azure cognitive service Document Intelligence and OpenAI can be used to extract information from a phd file, such as a scientific manuscript.  
 
 ## Part 1 Document Intelligence 
 Azure AI Document Intelligence, formerly known as Form Recognizer, is a cloud-based service offered by Microsoft Azure. It leverages advanced machine learning technologies to automatically extract text, key-value pairs, tables, and structures from various documents. This service simplifies the process of converting unstructured documents into usable data, enabling businesses to focus more on utilizing information rather than compiling it. Document Intelligence supports both pre-built models for common document types and custom models that can be tailored to unique document structures. This service can be applied in numerous scenarios including cloud-based or edge deployments, making it versatile for different IT architectures and business needs​ (Microsoft Azure)​​ (MS Learn)​.
@@ -86,6 +86,8 @@ Go to Azure OpenAI Studio [https://oai.azure.come/portal] and click ```Create ne
 
  <img src="./images/CreateDepolyment_1.png" style="height: 90%; width: 90%;"/>
 
-Remember the name of the Azure OpenAI deployment. 
+Remember the name of the Azure OpenAI deployment, which will be used when accessing the resource. 
+
+
 
 
