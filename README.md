@@ -1,10 +1,10 @@
 # Using Document Intelligence and OpenAI to acquire information from a pdf file. 
-In this Tutorial, we will demonstrate how Azure cognitive service Document Intelligence and OpenAI can be used to extract information from a phd file, such as a scientific manuscript.  
+In this Tutorial, we will demonstrate how Azure cognitive service Document Intelligence and OpenAI can be used to extract information from a pdf file, such as a scientific manuscript.  
 
 ## Part 1 Document Intelligence 
-Azure AI Document Intelligence, formerly known as Form Recognizer, is a cloud-based service offered by Microsoft Azure. It leverages advanced machine learning technologies to automatically extract text, key-value pairs, tables, and structures from various documents. This service simplifies the process of converting unstructured documents into usable data, enabling businesses to focus more on utilizing information rather than compiling it. Document Intelligence supports both pre-built models for common document types and custom models that can be tailored to unique document structures. This service can be applied in numerous scenarios including cloud-based or edge deployments, making it versatile for different IT architectures and business needs​ (Microsoft Azure)​​ (MS Learn)​.
+Azure AI Document Intelligence, formerly known as Form Recognizer, is a cloud-based service offered by Microsoft Azure. It leverages advanced machine learning technologies to automatically extract text, key-value pairs, tables, and structures from various documents. This service simplifies the process of converting unstructured documents into usable data, enabling businesses to focus more on utilizing information rather than compiling it. Document Intelligence supports both pre-built models for common document types and custom models that can be tailored to unique document structures. This service can be applied in numerous scenarios including cloud-based or edge deployments, making it versatile for different IT architectures and business needs​​.
 
-Begin by navigating to the Azure portal ([https://portal.azure.com]) and logging in with your Azure account credentials. Once logged in, you can access various Azure services, including Document Intelligence. 
+Begin by navigating to the Azure portal (https://portal.azure.com) and logging in with your Azure account credentials. Once logged in, you can access various Azure services, including Document Intelligence. 
 
 <img src="./images/DocumentIntellegente_1.png" style="height: 90%; width: 90%;"/>
 
@@ -39,7 +39,7 @@ OpenAI's powerful artificial intelligence capabilities are now available through
 
 ### Step 2.1: Accessing OpenAI Resources on Azure
 
-Begin by navigating to the Azure portal ([https://portal.azure.com]) and logging in with your Azure account credentials. Once logged in, you can access various Azure services, including OpenAI resources.
+Begin by navigating to the Azure portal (https://portal.azure.com) and logging in with your Azure account credentials. Once logged in, you can access various Azure services, including OpenAI resources.
 
 ### Step 2.2:Create OpenAI Resource 
 
@@ -49,48 +49,50 @@ In the Azure portal, search for "OpenAI" in the service catalog to explore avail
 In your resource group, click Create: <img src="./images/CreateAPI_1.png" style="height: 90%; width: 90%;"/>
 
 Next in the marketplace, search for OpenAI and select Azure OpenAI 
-<img src="./images/CreateAPI_2.png" style="height: 90%; width: 90%;"/>
+
+<img src="./images/CreateAPI_2.png" style="height: 50%; width: 50%;"/>
 
 
-<img src="./images/CreateAPI_3.png" style="height: 90%; width: 90%;"/>
+<img src="./images/CreateAPI_3.png" style="height: 50%; width: 50%;"/>
 
-
-<img src="./images/CreateAPI_4.png" style="height: 90%; width: 90%;"/>
 Here, if you haven't already had access to Azure OpenAI, you will have this error message, which you should click the link to fill out a request access form. 
 
+<img src="./images/CreateAPI_4.png" style="height: 70%; width: 70%;"/>
+
+
 <img src="./images/ReqestForm_1.png" style="height: 90%; width: 90%;"/>
-In the form, you will need to fill out your subscription ID, to prove you have enough credits to access this service, 
+In the form, you will need to fill out your subscription ID, to prove you have enough credits to access this service.
 
-<img src="./images/ReqestForm_2.png" style="height: 90%; width: 90%;"/>
+<img src="./images/ReqestForm_2.png" style="height: 70%; width: 70%;"/>
 
-you will also be asked to fill out what kind of services you will do with OpenAI, ChatGPT4.0, GPT Turbo. Dall-E, or others. Some of these questions are very specific, 
+You will also be asked to fill out what kind of services you will do with OpenAI, ChatGPT4.0, GPT Turbo. Dall-E, or others. Some of these questions are very specific,.
 <img src="./images/ReqestForm_3.png" style="height: 90%; width: 90%;"/>
 
-If your request is approved, you will get an email from Cognitive Service of Azure to welcome you to the Azure OpenAI service. Now, you are ready to create the OpenAI resources, 
+Once your request is approved, you will get an email from Cognitive Service of Azure to welcome you to the Azure OpenAI service. Now, you are ready to create the OpenAI resources.
 
 When your subscription has Azure OpenAI access, use when you click create Azure OpenAI in the marketplace, you will see 
 <img src="./images/CreateAPI_5.png" style="height: 90%; width: 90%;"/>
 
-Use your own UW NetID to name your Azure OpenAI resource, and choose the standard price tier, and keep all the other options in the Network, Tags as default option, and click create in the ```Review+Submit```
+Use your own UW NetID to name your Azure OpenAI resource, and choose the standard price tier, and keep all the other options in the Network, Tags as default option, and click create in the ```Review+Submit```.
 
 
-if your resource is created successfully, you will see this page:
+If your resource is created successfully, you will see this page:
  <img src="./images/CreateAPI_6.png" style="height: 90%; width: 90%;"/>
 
 ### Step 2.3: Create Azure OpenAI Deployment 
 
 To use OpenAI, you also need to prompt the model you created through Azure OpenAI Deployment. Azure OpenAI Deployment is a service offered by Microsoft Azure that facilitates the integration and deployment of OpenAI models within Azure's cloud infrastructure. This service enables developers to easily deploy, scale, and manage OpenAI models for various applications such as natural language processing, image recognition, and more. With Azure OpenAI Deployment, users can leverage the power of OpenAI while benefiting from Azure's robust platform for seamless integration, scalability, and reliability. It simplifies the process of deploying AI models, allowing developers to focus on building innovative solutions without worrying about infrastructure management.
 
-Go to Azure OpenAI Studio [https://oai.azure.come/portal] and click ```Create new deployment```
+Go to Azure OpenAI Studio (https://oai.azure.com/portal). The first time you log in, you will be asked to log in with your uw microsoft account and choose the subscription of this class and the OpenAI resource you just created. Navigate to ```Deployments``` in the left bar and click ```Create new deployment```.
 
-
- <img src="./images/CreateDepolyment_1.png" style="height: 90%; width: 90%;"/>
+ <img src="./images/CreateDepolyment_1.png" style="height: 70%; width: 70%;"/>
 
 Remember the name of the Azure OpenAI deployment, which will be used when accessing the resource. 
 
 Now, you have all your need to try out the Document Intelligence and Azure Open AI, 
 download Jupyter notebook for the demonstration here: https://github.com/lunayuehuang/OpenAI/blob/main/PdfExtractionTutorial_Demo.ipynb
-and 2 pdf files that you will use for this demo here: https://github.com/lunayuehuang/OpenAI/blob/main/15.pdf and https://github.com/lunayuehuang/OpenAI/blob/main/30.pdf, put all three files in a same local directory, Modify the PdfExtractionTutorial_Demo.ipynb with the information of the resource you created, and try this demo which will give you relevance ranking of the 2 pdf files to the topic you are interested in. 
+and 2 pdf files that you will use for this demo here: https://github.com/lunayuehuang/OpenAI/blob/main/15.pdf and https://github.com/lunayuehuang/OpenAI/blob/main/30.pdf. 
+Put all three files in a same local directory. Create a new python environment for this tutorial and open the PdfExtractionTutorial_Demo.ipynb under this tutorial. Modify the PdfExtractionTutorial_Demo.ipynb with the information of the resource you created, and try this demo which will give you relevance ranking of the 2 pdf files to the topic you are interested in. 
 
 Now, go ahead changing the prompt, so that you can use this notebook to get information from a research publication that you are familiar with, and design a test to analyze if you can use OpenAI to get the information you would like to get from a publication and write a short report to analyze the results. 
 
