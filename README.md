@@ -88,6 +88,10 @@ Go to Azure OpenAI Studio [https://oai.azure.come/portal] and click ```Create ne
 
 Remember the name of the Azure OpenAI deployment, which will be used when accessing the resource. 
 
+Now, you have all your need to try out the Document Intelligence and Azure Open AI, 
+download Jupyter notebook for the demonstration here: https://github.com/lunayuehuang/OpenAI/blob/main/PdfExtractionTutorial_Demo.ipynb
+and 2 pdf files that you will use for this demo here: https://github.com/lunayuehuang/OpenAI/blob/main/15.pdf and https://github.com/lunayuehuang/OpenAI/blob/main/30.pdf, put all three files in a same local directory, Modify the PdfExtractionTutorial_Demo.ipynb with the information of the resource you created, and try this demo which will give you relevance ranking of the 2 pdf files to the topic you are interested in. 
 
+Now, go ahead changing the prompt, so that you can use this notebook to get information from a research publication that you are familiar with, and design a test to analyze if you can use OpenAI to get the information you would like to get from a publication and write a short report to analyze the results. 
 
 
