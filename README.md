@@ -1,3 +1,5 @@
+Author: Luna Yue Huang, Ph.D. Acknowledgement: Henry Stirrat, Yueyao Fan 
+
 # Using Document Intelligence and OpenAI to acquire information from a pdf file. 
 In this Tutorial, we will demonstrate how Azure cognitive service Document Intelligence and OpenAI can be used to extract information from a pdf file, such as a scientific manuscript.  
 
