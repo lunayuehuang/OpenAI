@@ -1,3 +1,5 @@
+<img src="./images/OpenAI-ChatGPT-Enterprise-A-Tall-Order.jpg" style="height: 50%; width: 50%;"/>
+
 Author: Luna Yue Huang, Ph.D. Acknowledgement: Henry Stirrat, Yueyao Fan 
 
 # Using Document Intelligence and OpenAI to acquire information from a pdf file. 
