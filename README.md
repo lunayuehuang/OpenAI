@@ -1,4 +1,4 @@
-<img src="./images/OpenAI-ChatGPT-Enterprise-A-Tall-Order.jpg" style="height: 50%; width: 50%;"/>
+<img src="./images/OpenAI-ChatGPT-Enterprise-A-Tall-Order.png" style="height: 50%; width: 50%;"/>
 
 Author: Luna Yue Huang, Ph.D. Acknowledgement: Henry Stirrat, Yueyao Fan 
 
