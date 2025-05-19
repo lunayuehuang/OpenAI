@@ -61,7 +61,7 @@ Next in the marketplace, search for OpenAI and select Azure OpenAI
 
 <img src="./images/CreateAPI_3.png" style="height: 50%; width: 50%;"/>
 
-Create the resource using the following settings:
+Create the resource using the following settings. There is a limit of 30 deployments per region per subscription so not all students will be able to use the same region. Additionally, not all models are available in all regions. To streamline this and avoid running into these limits, we ask that students registered for CHEM 443/543 use East US, while students registered for MSE 479/544 use East US 2. If you run into issues with either of these, West US also has the model we will be using:
 
 <img src="./images/create_openai.png" style="height: 70%; width: 70%;"/>
 
