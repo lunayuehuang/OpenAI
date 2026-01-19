@@ -38,7 +38,7 @@ you can copy the key directly using the icon on the right.
 <img src="./images/DocumentIntellegente_4.png" style="height: 90%; width: 90%;"/>
 
 
-## Part 2 OpenAI API introduction
+## Part 2 Introduction to the OpenAI API 
 The OpenAI API is a powerful tool that provides access to state-of-the-art artificial intelligence models developed by OpenAI. It allows developers to integrate cutting-edge AI capabilities into their applications with ease. Some key capabilities of the OpenAI API include:
 
 1. Natural Language Understanding and Generation: The API can understand and generate human-like text, making it useful for tasks such as text completion, translation, summarization, and question answering.
@@ -91,7 +91,7 @@ Select ```o3-mini``` then on the next page name you deployment as <yourNetID>-o3
 
 Once your delpoyment is created, you can find the key and endpoint. Remember the name of the Azure OpenAI deployment, which will be used when accessing the resource. 
 
-Now you have everything you need to try Document Intelligence and Azure OpenAI.
+Now you have everything you need to try Document Intelligence and Azure OpenAI. Below are the steps to run this demo that produces a relevance ranking, meaning the model estimates which document is more relevant to a given query or topic. 
 
 1. Clone the repository:
    https://github.com/lunayuehuang/OpenAI  
@@ -106,7 +106,7 @@ Now you have everything you need to try Document Intelligence and Azure OpenAI.
 
 4. Create a new Python environment, open `PdfExtractionTutorial_Demo.ipynb`, and update it with the endpoint, key, and deployment name of the resources you created.
 
-5. Run the notebook to obtain relevance rankings of the two PDF files for a topic of interest.
+5. Run the notebook to obtain relevance rankings of the two PDF files for a topic of interest. 
 
 
 Now, go ahead and try changing the prompt, so that you can use this notebook to get information from a research publication that you are familiar with, and design a test to analyze if you can use OpenAI to get the information you are interested in from a publication, and write a short report to analyze the results. 
