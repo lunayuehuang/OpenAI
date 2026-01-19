@@ -91,9 +91,23 @@ Select ```o3-mini``` then on the next page name you deployment as <yourNetID>-o3
 
 Once your delpoyment is created, you can find the key and endpoint. Remember the name of the Azure OpenAI deployment, which will be used when accessing the resource. 
 
-Now, you have all your need to try out the Document Intelligence and Azure Open AI! Clone the https://github.com/lunayuehuang/OpenAI repository, or simply download the Jupyter notebook for the demonstration here: https://github.com/lunayuehuang/OpenAI/blob/main/PdfExtractionTutorial_Demo.ipynb
-and the 2 pdf files that you will use for this demo here: https://github.com/lunayuehuang/OpenAI/blob/main/PapersToAnalyze/15.pdf and https://github.com/lunayuehuang/OpenAI/blob/main/UnridableBicycle.pdf. 
-Put the python notebook in a directory, with the pdf files in a subdirectory called "PapersToAnalyze". Create a new python environment for this tutorial and open the PdfExtractionTutorial_Demo.ipynb notebook. Modify the PdfExtractionTutorial_Demo.ipynb with the information of the resources you created, and try this demo which will give you relevance ranking of the 2 pdf files to the topic you are interested in.  
+Now you have everything you need to try Document Intelligence and Azure OpenAI.
+
+1. Clone the repository:
+   https://github.com/lunayuehuang/OpenAI  
+   or download the demonstration notebook directly:
+   https://github.com/lunayuehuang/OpenAI/blob/main/PdfExtractionTutorial_Demo.ipynb
+
+2. Download the two PDF files used in this demo:
+   - https://github.com/lunayuehuang/OpenAI/blob/main/PapersToAnalyze/15.pdf
+   - https://github.com/lunayuehuang/OpenAI/blob/main/UnridableBicycle.pdf
+
+3. Place the notebook in a directory and create a subdirectory named `PapersToAnalyze`, then move the PDF files into that folder.
+
+4. Create a new Python environment, open `PdfExtractionTutorial_Demo.ipynb`, and update it with the endpoint, key, and deployment name of the resources you created.
+
+5. Run the notebook to obtain relevance rankings of the two PDF files for a topic of interest.
+
 
 Now, go ahead and try changing the prompt, so that you can use this notebook to get information from a research publication that you are familiar with, and design a test to analyze if you can use OpenAI to get the information you are interested in from a publication, and write a short report to analyze the results. 
 
