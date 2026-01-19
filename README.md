@@ -47,14 +47,14 @@ The OpenAI API is a powerful tool that provides access to state-of-the-art artif
 4. Customization and Fine-Tuning: Developers can fine-tune the pre-trained models provided by OpenAI to adapt them to specific tasks or domains, allowing for more tailored and accurate AI solutions.
 5. Scalability and Performance: The API is designed to handle large-scale requests efficiently, making it suitable for applications with high throughput and demanding computational requirements.
 
-##  Using OpenAI with Azure
+## Part 3 Using OpenAI with Azure
 OpenAI's powerful artificial intelligence capabilities are now available through Microsoft Azure. If you already have an Azure subscription, integrating OpenAI into your applications is straightforward. This introduction will guide you through the process of getting started with OpenAI on Azure.
 
-### Step 2.1: Accessing OpenAI Resources on Azure
+### Step 3.1: Accessing OpenAI Resources on Azure
 
 Begin by navigating to the Azure portal (https://portal.azure.com) and logging in with your Azure account credentials. Once logged in, you can access various Azure services, including OpenAI resources.
 
-### Step 2.2:Create OpenAI Resource 
+### Step 3.2:Create OpenAI Resource 
 
 In the Azure portal, search for "OpenAI" in the service catalog to explore available OpenAI resources. You'll find services such as the OpenAI API, which provides access to AI models like GPT-4 and CLIP, as well as other related services.
 
@@ -75,7 +75,7 @@ Create the resource using the following settings. There is a limit of 30 deploym
 If your resource is created successfully, you will see this page:
  <img src="./images/CreateAPI_6.png" style="height: 90%; width: 90%;"/>
 
-### Step 2.3: Create Azure OpenAI Deployment 
+### Step 3.3: Create Azure OpenAI Deployment 
 
 To use OpenAI, you also need to select the ML model you want to use on the Azure OpenAI portal, in what is called a "Deployment". Azure OpenAI Deployment is a service offered by Microsoft Azure that facilitates the integration and deployment of OpenAI models within Azure's cloud infrastructure. This service enables developers to easily deploy, scale, and manage OpenAI models for various applications such as natural language processing, image recognition, and more.
 
