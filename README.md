@@ -3,7 +3,7 @@
 Author: [Luna Huang](https://github.com/lunayuehuang/OpenAI/) Acknowledgement: Henry Stirrat, Yueyao Fan 
 
 # Using Document Intelligence and OpenAI to acquire information from a pdf file. 
-In this tutorial, we will demonstrate how Azure cognitive service Document Intelligence and OpenAI can be used to extract information from a pdf file, such as a scientific manuscript.  
+In this tutorial, we demonstrate how Azure Cognitive Service "Document Intelligence" and "OpenAI" can be used to extract information from a PDF file, such as a scientific manuscript.  
 
 ### Learning Objectives
 By the end of this tutorial, you will be able to:
@@ -33,7 +33,7 @@ To use this service, you will need the endpoint and key of the resource you crea
 
 <img src="./images/DocumentIntellegente_3.png" style="height: 90%; width: 90%;"/>
 
-you can copy the key directly using the icon on the right. 
+You can copy the key directly using the icon on the right. 
 
 <img src="./images/DocumentIntellegente_4.png" style="height: 90%; width: 90%;"/>
 
@@ -54,7 +54,7 @@ OpenAI's powerful artificial intelligence capabilities are now available through
 
 Begin by navigating to the Azure portal (https://portal.azure.com) and logging in with your Azure account credentials. Once logged in, you can access various Azure services, including OpenAI resources.
 
-### Step 3.2:Create OpenAI Resource 
+### Step 3.2:Create an OpenAI Resource 
 
 In the Azure portal, search for "OpenAI" in the service catalog to explore available OpenAI resources. You'll find services such as the OpenAI API, which provides access to AI models like GPT-4 and CLIP, as well as other related services.
 
